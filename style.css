@@ -1,0 +1,17 @@
+html,body{
+  margin:0; height:100%;
+  background:#0b1020; color:#e5e7eb;
+  font:14px system-ui; display:grid; place-items:center;
+}
+#wrap{ display:grid; gap:8px; place-items:center; }
+canvas{
+  background:#060914; border:1px solid #2a3448; border-radius:12px;
+  width:min(520px,95vw); height:calc(min(520px,95vw) / (10/16));
+  touch-action:none;
+}
+.row{ display:flex; gap:8px; justify-content:center; }
+button{
+  border:1px solid #334155; background:#111827; color:#e5e7eb;
+  padding:8px 12px; border-radius:10px; cursor:pointer;
+}
+.hint{ opacity:.8; font-size:12px; }
